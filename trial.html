@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Leap Year</title>
+    </head>
+    <body>
+        <script>
+          function myFunction(num) 
+             {
+                if ((num%2)==0)
+                   {res = document.write("It is an even number")}
+                else
+                   {res = document.write("It's an odd number")}
+
+                return (res); 
+            }
+
+            myFunction(12);
+
+
+           function LeapYear(year)
+           {
+            if ((((year%4)==0)&&((year%100)!=0))||((year%400)==0))
+                {res = document.write(" It's is a leap year")}
+            else
+                {res = document.write(" It's not a leap year")}
+            return (res);
+            }
+            
+            LeapYear(1900);
+        </script>
+    </body>
+</html>       
+ 
